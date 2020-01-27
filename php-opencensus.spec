@@ -4,7 +4,7 @@
 #
 Name     : php-opencensus
 Version  : 0.2.2
-Release  : 2
+Release  : 3
 URL      : https://pecl.php.net//get/opencensus-0.2.2.tgz
 Source0  : https://pecl.php.net//get/opencensus-0.2.2.tgz
 Summary  : No detailed summary available
@@ -30,6 +30,7 @@ lib components for the php-opencensus package.
 
 %prep
 %setup -q -n opencensus-0.2.2
+cd %{_builddir}/opencensus-0.2.2
 
 %build
 export http_proxy=http://127.0.0.1:9/
@@ -48,4 +49,4 @@ make  %{?_smp_mflags}
 
 %files lib
 %defattr(-,root,root,-)
-/usr/lib64/extensions/no-debug-non-zts-20180731/opencensus.so
+/usr/lib64/extensions/no-debug-non-zts-20190902/opencensus.so
