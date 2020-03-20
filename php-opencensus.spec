@@ -4,7 +4,7 @@
 #
 Name     : php-opencensus
 Version  : 0.2.2
-Release  : 4
+Release  : 5
 URL      : https://pecl.php.net//get/opencensus-0.2.2.tgz
 Source0  : https://pecl.php.net//get/opencensus-0.2.2.tgz
 Summary  : No detailed summary available
